@@ -1,7 +1,7 @@
 # Homework Answer for Week 1 (Introduction to Machine Learning)
 Week 1 of the #mlzoomcamp explains the basics of Machine Learning, Python tools used in this training, and examples of problem solving using Machine Learning. 
 
-:book: Week 1 lesson:
+:book: Week 1 lessons:
 1. [Introduction to Machine Learning](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/01-intro/01-what-is-ml.md) :white_check_mark:
 2. [ML vs Rule-Based Systems](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/01-intro/02-ml-vs-rules.md) :white_check_mark:
 3. [Supervised Machine Learning](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/01-intro/03-supervised-ml.md) :white_check_mark:
