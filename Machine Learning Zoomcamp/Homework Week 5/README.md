@@ -8,7 +8,7 @@ Week 5 of the #mlzoomcamp explains about how to create, save, load model and dv 
 4. [Serving the churn model with Flask](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/05-deployment/04-flask-deployment.md):white_check_mark:
 5. [Python virtual environment: Pipenv](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/05-deployment/05-pipenv.md):white_check_mark:
 6. [Environment management: Docker](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/05-deployment/06-docker.md):white_check_mark:
-7. [Deployment to the cloud: AWS Elastic Beanstalk](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/05-deployment/07-aws-eb.md) (Optional):white_check_mark:
+7. [Deployment to the cloud: AWS Elastic Beanstalk](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/05-deployment/07-aws-eb.md):white_check_mark:
 
 ## Homework Question
 The Homework question can be seen in this [link](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/05-deployment/homework.md).
