@@ -27,6 +27,6 @@ The answer of this HW can be seen in this [link](https://github.com/madityarafip
 ## Navigation 
 
 ## Navigation
-Next  -> Week 4 Homework: [Evaluation Metrics for Classification](https://github.com/madityarafip/My-Machine-Learning/tree/main/Machine%20Learning%20Zoomcamp/Homework%20Week%204)
-
-Prev. -> Week 2 Homework: [Machine Learning for Regression](https://github.com/madityarafip/My-Machine-Learning/tree/main/Machine%20Learning%20Zoomcamp/Homework%20Week%202)
+* [ML-Zoomcamp](https://github.com/madityarafip/My-Machine-Learning/tree/main/Machine%20Learning%20Zoomcamp)
+* Next  -> Week 4 Homework: [Evaluation Metrics for Classification](https://github.com/madityarafip/My-Machine-Learning/tree/main/Machine%20Learning%20Zoomcamp/Homework%20Week%204)
+* Prev. -> Week 2 Homework: [Machine Learning for Regression](https://github.com/madityarafip/My-Machine-Learning/tree/main/Machine%20Learning%20Zoomcamp/Homework%20Week%202)
