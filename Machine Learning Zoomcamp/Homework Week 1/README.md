@@ -20,3 +20,6 @@ Dataset available [here](https://raw.githubusercontent.com/madityarafip/My-Machi
 
 ## Homework Answer
 The answer of this HW can be seen in this [link](https://github.com/madityarafip/My-Machine-Learning/blob/main/Machine%20Learning%20Zoomcamp/Homework%20Week%201/MLZoomcamp_HW1.ipynb)
+
+## Navigation
+Next -> Week 2 Homework: [Machine Learning for Regression](https://github.com/madityarafip/My-Machine-Learning/tree/main/Machine%20Learning%20Zoomcamp/Homework%20Week%202)
