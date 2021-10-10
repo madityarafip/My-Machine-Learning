@@ -1,5 +1,5 @@
 # Homework Answer for Week 4 (Evaluation Metrics for Classification)
-Week 4 of the #mlzoomcamp explains about evaluation metrics such as ROC, AUC, accuracy, precision, and recall to evaluate the trained model performance. This week also explains about folds using `Kfold()` for various training-test set.
+Week 4 of the #mlzoomcamp explains about evaluation metrics such as ROC, AUC, accuracy, precision, and recall to evaluate the trained model performance. This week also explains about folds using `KFold()` for various training-test set.
 
 :book: Week 4 lessons:
 1. [Evaluation metrics: session overview](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/04-evaluation/01-overview.md):white_check_mark:
