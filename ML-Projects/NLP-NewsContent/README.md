@@ -11,5 +11,5 @@ Dataset available [here](https://raw.githubusercontent.com/madityarafip/My-Machi
 
 ## Navigation
 + [Machine Learning Projects](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Projects) 
-+ Next -> []()
++ Next -> [Machine Learning Model For Hourly Energy Consumption (Time Series Data)]()
 + Previous -> [Rock, Paper, Scissors Image Classification](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Projects/RPS-Classification/README.md)
