@@ -6,6 +6,9 @@ In this project, a NLP model from Machine Learning is designed which aims to cla
 ## Notebook File
 Notebook from this project can be seen at this [link]().
 
+## Dataset
+Dataset available [here](https://raw.githubusercontent.com/madityarafip/My-Machine-Learning/main/Dataset/bbc-news-data.csv).
+
 ## Navigation
 + [Machine Learning Projects](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Projects) 
 + Next -> []()
