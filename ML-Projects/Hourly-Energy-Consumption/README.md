@@ -12,5 +12,5 @@ Dataset available [here](https://github.com/madityarafip/My-Machine-Learning/blo
 
 ## Navigation
 + [Machine Learning Projects](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Projects) 
-+ Next -> []()
++ Next -> [FIFA 21 Player Position Prediction]()
 + Previous -> [NLP using Tensorflow to Categorize News Content](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Projects/NLP-NewsContent/README.md)
