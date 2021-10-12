@@ -23,4 +23,4 @@ The answer of this HW can be seen in this [link](https://github.com/madityarafip
 
 ## Navigation
 * [ML-Zoomcamp](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp)
-* Next -> Week 2 Homework: [Machine Learning for Regression](https://github.com/madityarafip/My-Machine-Learning/tree/main/Machine%20Learning%20Zoomcamp/Homework%20Week%202)
+* Next -> Week 2 Homework: [Machine Learning for Regression](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/HW-Week-2)
