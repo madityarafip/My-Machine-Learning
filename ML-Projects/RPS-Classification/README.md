@@ -9,4 +9,5 @@ Notebook from this project can be seen at this [link](https://github.com/maditya
 
 ## Navigation
 + [Machine Learning Projects](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Projects) 
-+ Next -> []()
++ Next -> [
+NLP using Tensorflow to Categorize News Content](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Projects/NLP-NewsContent)
