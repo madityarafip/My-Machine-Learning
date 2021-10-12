@@ -4,7 +4,7 @@ In this project, a NLP model from Machine Learning is designed which aims to cla
 ![1200px-BBC_News_(2008) svg](https://user-images.githubusercontent.com/42953630/136902970-3474ac86-86c9-49d5-a614-c7a8896c88b5.png)
 
 ## Notebook File
-Notebook from this project can be seen at this [link]().
+Notebook from this project can be seen at this [link](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Projects/NLP-NewsContent/Proyek1_ML_Pengembangan.ipynb).
 
 ## Dataset
 Dataset available [here](https://raw.githubusercontent.com/madityarafip/My-Machine-Learning/main/Dataset/bbc-news-data.csv).
