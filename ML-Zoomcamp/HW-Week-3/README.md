@@ -25,6 +25,6 @@ Dataset available [here](https://raw.githubusercontent.com/madityarafip/My-Machi
 The answer of this HW can be seen in this [link](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/HW-Week-3/MLZoomcamp_HW3.ipynb)
 
 ## Navigation
-* [ML-Zoomcamp](https://github.com/madityarafip/My-Machine-Learning/tree/main/Machine%20Learning%20Zoomcamp)
-* Next  -> Week 4 Homework: [Evaluation Metrics for Classification](https://github.com/madityarafip/My-Machine-Learning/tree/main/Machine%20Learning%20Zoomcamp/Homework%20Week%204)
+* [ML-Zoomcamp](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp)
+* Next  -> Week 4 Homework: [Evaluation Metrics for Classification](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/HW-Week-4)
 * Prev. -> Week 2 Homework: [Machine Learning for Regression](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/HW-Week-2)
