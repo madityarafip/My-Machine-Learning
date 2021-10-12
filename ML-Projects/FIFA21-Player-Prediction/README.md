@@ -5,7 +5,7 @@ Inspired by the project done by [Siddharth](https:///www.analyticsvidhya.com/blo
 
 
 ## Notebook File
-Notebook from this project can be seen at this [link]().
+Notebook from this project can be seen at this [link](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Projects/FIFA21-Player-Prediction/FIFA21_PlayerPredict.ipynb).
 
 ## Dataset
 Dataset available [here](https://github.com/madityarafip/My-Machine-Learning/blob/main/Dataset/players_21.csv?raw=true).
