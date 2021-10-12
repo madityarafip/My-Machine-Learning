@@ -17,7 +17,7 @@ The Homework question can be seen in this [link](https://github.com/alexeygrigor
 Dataset available [here](https://raw.githubusercontent.com/madityarafip/My-Machine-Learning/main/Dataset/WA_Fn-UseC_-Telco-Customer-Churn.csv)
 
 ## Homework Answer
-The answer of this HW can be seen in this [code](https://github.com/madityarafip/My-Machine-Learning/tree/main/Machine%20Learning%20Zoomcamp/Homework%20Week%205/HW5-Codes) folder and this [notebook](https://github.com/madityarafip/My-Machine-Learning/blob/main/Machine%20Learning%20Zoomcamp/Homework%20Week%205/MLZoomcamp_HW5.ipynb) file. For the result of the program can also be seen in the videos below. 
+The answer of this HW can be seen in this [code](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/HW-Week-5/HW5-Codes) folder and this [notebook](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/HW-Week-5/MLZoomcamp_HW5.ipynb) file. For the result of the program can also be seen in the videos below. 
 
 
 Answer for Q3:
