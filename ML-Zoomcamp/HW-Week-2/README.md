@@ -3,7 +3,7 @@ Week 2 of the #mlzoomcamp explains how to create a Linear Regression model from 
 
 :book: Week 2 lessons:
 1. [Car price prediction project](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/02-regression/01-car-price-intro.md) :white_check_mark:
-2. [Data preparation](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/02-regression) :white_check_mark:
+2. [Data preparation](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/02-regression/02-data-preparation.md) :white_check_mark:
 3. [Exploratory data analysis](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/02-regression/03-eda.md) :white_check_mark:
 4. [Setting up the validation framework](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/02-regression/04-validation-framework.md) :white_check_mark:
 5. [Linear regression](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/02-regression/05-linear-regression-simple.md) :white_check_mark:
