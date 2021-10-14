@@ -1,5 +1,7 @@
 # Machine Learning Zoomcamp
-This directory contains all of the homework that i have been working on as the part of #mlzoomcamp training held by DataTalksClub and Alexey Grigorev. 
+![image](https://user-images.githubusercontent.com/42953630/137266103-1cc70f4e-b750-4800-9660-1efef2b1908d.png)
+
+This repo contains all of the lessons and the homework that i have been working on as the part of #mlzoomcamp training held by DataTalksClub and Alexey Grigorev. 
 
 ## Homework Link
 1. Week 1 :arrow_right: [(Introduction to Machine Learning)](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/HW-Week-1)
