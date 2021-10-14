@@ -11,7 +11,7 @@ This repo contains all of the lessons and the homework that i have been working 
 | 3         | Machine Learning for Classification   | ✔️   | 27/09/2021   |[HW-3](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/HW-Week-3)   |
 | 4         | Evaluation Metrics for Classification   | ✔️   | 04/10/2021   |[HW-4](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/HW-Week-4)   |
 | 5         | Deploying Machine Learning Models   | ✔️   | 11/10/2021   |[HW-5](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/HW-Week-5)   |
-| 6         | Decision Trees and Ensemble Learning   | ⏳   | 20/10/2021   |[HW-6](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/HW-Week-6)   |
+| 6         | Decision Trees and Ensemble Learning   |✔️   | 20/10/2021   |[HW-6](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/HW-Week-6)   |
 | 7         | Midterm Project   | ⏳   | 01/11/2021   |[Mid-Project]()   |
 | 8         | Neural Networks and Deep Learning   | ✖️   | --/--/2021   |[HW-8]()   |
 | 9         | Serverless Deep Learning   | ✖️   | --/--/2021   |[HW-9]()   |
