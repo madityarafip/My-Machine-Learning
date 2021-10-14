@@ -19,7 +19,7 @@ The Homework question can be seen in this [link](https://github.com/alexeygrigor
 Dataset available [here](https://raw.githubusercontent.com/madityarafip/My-Machine-Learning/main/Dataset/AB_NYC_2019.csv).
 
 ## Homework Answer
-The answer of this HW can be seen in this [link]().
+The answer of this HW can be seen in this [link](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/HW-Week-6/MLZoomcamp_HW6.ipynb).
 
 ## Navigation
 * [ML-Zoomcamp](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp)
