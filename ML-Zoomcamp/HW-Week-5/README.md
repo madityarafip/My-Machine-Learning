@@ -42,5 +42,5 @@ https://user-images.githubusercontent.com/42953630/136677131-78d40ecf-0451-40c1-
 
 ## Navigation
 * [ML-Zoomcamp](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp)
-* Next  -> Week 6 Homework: Decision Trees and Ensemble Learning
+* Next  -> Week 6 Homework: [Decision Trees and Ensemble Learning](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/HW-Week-6)
 * Prev. -> Week 4 Homework: [Evaluation Metrics for Classification](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/HW-Week-4)
