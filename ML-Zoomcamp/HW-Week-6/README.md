@@ -1,4 +1,4 @@
-# Homeork Answer for Week 6 (Decision Trees and Ensemble Learning)
+# Homework Answer for Week 6 (Decision Trees and Ensemble Learning)
 Week 6 of the #mlzoomcamp explains about creating and tuning the parameter for decision trees model, ensemble learning and random forest model, and also create model using XGBoost and tuning the parameter. This week also compare the three model and choose the best model for the project in the lesson. 
 
 :book: Week 6 lessons:
