@@ -3,11 +3,24 @@
 
 This repo contains all of the lessons and the homework that i have been working on as the part of #mlzoomcamp training held by DataTalksClub and Alexey Grigorev. 
 
-## Homework Link
-1. Week 1 :arrow_right: [(Introduction to Machine Learning)](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/HW-Week-1)
-2. Week 2 :arrow_right: [(Machine Learning for Regression)](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/HW-Week-2)
-3. Week 3 :arrow_right: [(Machine Learning for Classification)](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/HW-Week-3)
-4. Week 4 :arrow_right: [(Evaluation Metrics for Classification)](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/HW-Week-4)
-5. Week 5 :arrow_right: [(Deploying Machine Learning Models)](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/HW-Week-5)
-6. Week 6 :arrow_right: [(Decision Trees and Ensemble Learning)]()
-7. Week 7 :arrow_right: [Midterm Project]()
+## Course, Homework, and Project Links
+| Week      | Course      | Homework/Project Progress | Deadline     |HW Link     |
+| :----:      |    :----:   |    :----:         | :----:       |       :----: |
+| 1         | Introduction to Machine Learning   | ✔️   | 13/09/2021   |[HW-1](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/HW-Week-1)   |
+| 2         | Machine Learning for Regression   | ✔️   | 20/09/2021   |[HW-2](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/HW-Week-2)   |
+| 3         | Machine Learning for Classification   | ✔️   | 27/09/2021   |[HW-3](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/HW-Week-3)   |
+| 4         | Evaluation Metrics for Classification   | ✔️   | 04/10/2021   |[HW-4](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/HW-Week-4)   |
+| 5         | Deploying Machine Learning Models   | ✔️   | 11/10/2021   |[HW-5](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/HW-Week-5)   |
+| 6         | Decision Trees and Ensemble Learning   | ⏳   | 20/10/2021   |[HW-6]()   |
+| 7         | Midterm Project   | ⏳   | 01/11/2021   |[Mid-Project]()   |
+| 8         | Neural Networks and Deep Learning   | ✖️   | --/--/2021   |[HW-8]()   |
+| 9         | Serverless Deep Learning   | ✖️   | --/--/2021   |[HW-9]()   |
+| 10         | Kubernetes and TensorFlow-Serving   | ✖️   | --/--/2021   |[HW-10]()   |
+| 11         | Kubeflow and KFServing   | ✖️   | --/--/2021   |[HW-11]()   |
+| 12         | Capstone Project   | ✖️   | --/--/2021   |[Cap-Project]()   |
+
+-------------------------------------------------
+### Notes:
++ ✔️ = Done!
++ ⏳ = On Progress...
++ ✖️ = No Homework/Project yet!
