@@ -61,7 +61,7 @@ Objective of this project is to create a subscription services to predict the pr
 The codes folder of this project can be seen in this [link](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/Midterm-Project-Week-7/Mid-Project-Codes).  
 After the final model is obtained, the next process can be carried out:
 1. Create [`train.py`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Midterm-Project-Week-7/Mid-Project-Codes/train.py) for training the final model, and also save the final model and `DictVectorizer()` into `final_model.bin` using pickle
-2. Putting the model into a web service and deploying it locally with `flask`, `pipenv`, and `Dockerfile`
+2. Putting the model into a web service and deploying it locally with `flask`, `pipenv`, and [`Dockerfile`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Midterm-Project-Week-7/Mid-Project-Codes/Dockerfile)
 3. Deploying the subscription services to the cloud using `flask` and [PythonAnywhere](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwizz_aRou_zAhUNfX0KHbabAggQFnoECA0QAQ&url=https%3A%2F%2Fwww.pythonanywhere.com%2F&usg=AOvVaw3hzz2q-CdibjXhEo5E-uGB)
 
 ### Tutorial 1 ➡️ Run `train.py` and save the final model and `DictVectorizer()` into `final_model.bin` using pickle
