@@ -23,5 +23,5 @@ The answer of this HW can be seen in this [link](https://github.com/madityarafip
 
 ## Navigation
 * [ML-Zoomcamp](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp)
-* Next  -> Midterm Project: []()
+* Next  -> Week 7 and 8: [Midterm Project](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/Midterm-Project-Week-7)
 * Prev. -> Week 5 Homework: [Deploying Machine Learning Models](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/HW-Week-5)
