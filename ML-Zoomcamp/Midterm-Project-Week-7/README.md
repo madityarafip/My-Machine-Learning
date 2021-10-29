@@ -1,6 +1,5 @@
 # MIDTERM PROJECT
-This project is part of the [Machine Learning Zoomcamp](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp) training held by [DataTalksClub](https://datatalks.club/). In this Midterm Project, everything that has been learned in the previous weeks will be applied in this project. To see what I have learned during this training, you can refer to this following [link](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp). 
-
+This project is part of the [Machine Learning Zoomcamp](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp) training held by [DataTalksClub](https://datatalks.club/). In this Midterm Project, everything that has been learned in the previous weeks will be applied in this project. To see what I have learned during this training, you can refer to this following [link](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp).  
 For this project, similar to what has been studied previously (churning and credit risk), the problem raised in this project is the prediction of whether potential bank clients will subscribe to the term deposit or not ('yes' or 'no' condition).
 
 ## About the Dataset
@@ -29,3 +28,29 @@ The data is related with direct marketing campaigns of a Portuguese banking inst
 | 16  |  poutcome (Outcome of the previous marketing campaign) |  Categorical | failure, nonexistent, success |
 | 17  |  Target (has the client subscribed a term deposit?) | Categorical  | yes, no |
 
+## Project Notebooks
+Objective of this project is to create a subscription services to predict the probability whether the potential client will subscribe to a term deposit or not (variable y = yes/no). So in this notebooks, I do some processing before I deploy my model to subscription services. The process includes:
+1. Data preparation
+2. Exploratory data analysis (EDA)  
+   What I do in this part: 
+    + Check data information
+    + Check missing value from the data
+    + Change the `'Target'` feature into binary
+    + Check if the data is balance or not
+    + Look at numerical and categorical features
+    + Check unique values in categorical features
+    + Visualize numerical features
+3. Split dataset ➡️ Train/Val/Test (60%/20%/20%)
+4. Features importances  
+	 What I do in this part:
+	 + View Mutual Info Score for Categorical Features of full train data
+	 + Use Correlation Matrix to see correlation between features and target in train data and visualize it using heatmap
+5. Choose model  
+	 For this midterm project there are a few model for classification that I used:
+	 + `LogisticRegression()`
+   + `DecisionTreeClassifier()`
+   + `RandomForestClassifier()`
+   + `XGBoost()`
+
+   The best parameter and model will be selected based on the best performance of the model seen from AUC score of the validation data for each trained model.
+6. Train the best and final model
