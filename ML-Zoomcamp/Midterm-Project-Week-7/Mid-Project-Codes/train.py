@@ -123,6 +123,7 @@ auc = roc_auc_score(y_val, y_pred)
 print('Validation result:')
 print('AUC on validation: ', auc.round(3))
 
+print(' ')
 # Train Final Model
 print('Training Final Model Start!')
 y_full_train = df_full_train.target_cat.values
