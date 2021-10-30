@@ -45,7 +45,9 @@ numerical = ['age', 'balance', 'campaign', 'previous']
 categorical = ['marital', 'job', 'default', 'housing', 'loan']
 print('Data Ready!')
 
+print(' ')
 
+print('Split data -> train/val/test (60%/20%/20%')
 # Split Data
 #80% Full Train, 20% Test
 df_full_train, df_test = train_test_split(df_proj_new, test_size=0.2, random_state=15)
@@ -62,13 +64,13 @@ del df_test['target_cat']
 
 
 print('Train Full:', len(df_full_train), 
-      '(', round((len(df_full_train)/len(df_proj))*100, 2), '%)') 
+      '(', round((len(df_full_train)/len(df_proj_new))*100, 2), '%)') 
 print('Train:', len(df_train), 
-      '(', round((len(df_train)/len(df_proj))*100, 2), '%)') 
+      '(', round((len(df_train)/len(df_proj_new))*100, 2), '%)') 
 print('Validation:', len(df_val), 
-      '(', round((len(df_val)/len(df_proj))*100, 2), '%)') 
+      '(', round((len(df_val)/len(df_proj_new))*100, 2), '%)') 
 print('Test:', len(df_test), 
-      '(', round((len(df_test)/len(df_proj))*100, 2), '%)')
+      '(', round((len(df_test)/len(df_proj_new))*100, 2), '%)')
 
 
 # OHE using DV
@@ -85,7 +87,7 @@ def OHE_DV_wo_fit(df, dv, col):
     return X_data
 
 # Model Validation
-print('Doing Validation Process....')
+print('Validation Process Start....')
 dv = DictVectorizer(sparse=False)
 
 X_col = categorical+numerical 
@@ -118,10 +120,10 @@ y_pred = model.predict(dval)
 auc = roc_auc_score(y_val, y_pred)
 
 print('Validation result:')
-print(f'AUC on validation: {auc.round(3)}')
+print('AUC on validation: ', auc.round(3))
 
 # Train Final Model
-print('Final Train Model Start!')
+print('Training Final Model Start!')
 y_full_train = df_full_train.target_cat.values
 
 del df_full_train['target_cat']
@@ -158,8 +160,8 @@ model_final = xgb.train(xgb_params, dfull_train, num_boost_round=200)
 
 y_pred = model_final.predict(dtest)
 auc_final = roc_auc_score(y_test, y_pred)
-print('Final Train Model Finish!')
-print(f'Final Model -> AUC Score = {auc_final.round(3)}')
+print('Training Final Model Finish!')
+print('Final Model -> AUC Score = ', auc_final.round(3))
 
 # Save the model
 print('Save Model....')
@@ -167,4 +169,4 @@ print('Save Model....')
 with open(output_file, 'wb') as f_out:
     pickle.dump((dv, model_final), f_out)
 
-print(f'The model is saved to {output_file}')
+print('The model is saved to ', output_file)
