@@ -1,4 +1,4 @@
-FROM python:3.8.12-slim
+FROM python:3.9.7-slim
 
 RUN pip install pipenv
 
@@ -12,4 +12,4 @@ COPY ["predict.py", "final_model.bin", "./"]
 
 EXPOSE 1208
 
-ENTRYPOINT ["gunicorn", "--bind=0.0.0.0:1208 ", "predict:app"]
+ENTRYPOINT ["gunicorn", "--bind", "0.0.0.0:1208", "predict:app"]
