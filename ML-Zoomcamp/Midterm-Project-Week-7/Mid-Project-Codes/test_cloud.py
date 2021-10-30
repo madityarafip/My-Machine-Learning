@@ -14,7 +14,7 @@ print('Job? (admin, bluecollar, entrepreneur, housemaid, management, retired, se
 job = input('Input: ')
 print('Has credit in default? (yes, no, unknown)')
 default = input('Input: ')
-balance = int(input('Balance: '))
+balance = int(input('Balance (euro): '))
 print('Has housing loan? (yes, no, unknown)')
 housing = input('Input: ')
 print('Has Personal loan? (yes, no, unknown)')
