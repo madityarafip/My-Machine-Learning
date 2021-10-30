@@ -28,9 +28,9 @@ def predict():
     dcust = xgb.DMatrix(X, feature_names=features)
     #Predict
     print('Predicting Subscribe Probability......')
-    y_pred = model.predict(dcust)[:].round(4)
-    subs = y_pred >= 0.5
-    print('Subscribe probability: ', y_pred)
+    y_pred = model.predict(dcust)[0]
+    subs = y_pred >= 0.7
+    print(f'Subscribe probability: {(y_pred*100).round(2)} %')
 
     result = {
         "Subscribe Probability": float(y_pred),
