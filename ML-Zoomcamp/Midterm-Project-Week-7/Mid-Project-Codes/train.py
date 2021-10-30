@@ -47,7 +47,7 @@ print('Data Ready!')
 
 print(' ')
 
-print('Split data -> train/val/test (60%/20%/20%')
+print('Split data -> train/val/test (60%/20%/20%)')
 # Split Data
 #80% Full Train, 20% Test
 df_full_train, df_test = train_test_split(df_proj_new, test_size=0.2, random_state=15)
