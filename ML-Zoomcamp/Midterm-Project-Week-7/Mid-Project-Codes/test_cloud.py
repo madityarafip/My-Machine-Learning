@@ -4,8 +4,8 @@ import json
 url = "http://madityarafip.pythonanywhere.com/predict"
 
 
-print('Fill potential client data below:')
-print('#--------------------------------------------------------------------------------------------------------------------------#')
+print('  \nFill potential client data below:')
+print('#------------------------------------------------------------------------#')
 customer_id = input('Customer ID: ')
 age = int(input('Age: '))
 print('Marital Status? (divorced, married, single, unknown)')
@@ -33,12 +33,15 @@ client_data = {
             "campaign": campaign, 
             "previous": previous
              }
-
-
+print(' ')
+print(f'Please wait..\nSending client data with ID:{customer_id} to Subscription Services.....')
 response = requests.post(url, json=client_data).json()
-print(response)
+pred = (response["Subscribe Probability"]*100)
+print(' \nGeting the response...\n  ')
+print(f'Potential client with ID:{customer_id} have a subscription probability of {round(pred, 2)}%')
 
+print('\nSuggestion from Subscription Services system')
 if response["Subscribe"] == True:
-    print('Sending subscribe offer email to %s' % customer_id)
+    print(f'--> Send email of a deposit term subscription offer to a potential client with ID:{customer_id}')
 else:
-    print('Not sending subscribe offer email to %s' % customer_id)
+    print(f"--> Don't need to send email of a deposit term subscription offer to a potential client with ID:{customer_id}")
