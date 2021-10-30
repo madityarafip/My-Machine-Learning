@@ -17,22 +17,22 @@ app = Flask('subscribe')
 
 @app.route('/predict', methods=['POST'])
 def predict():
-    print('Getting customer data...')
+    #print('Getting customer data...')
     customer = request.get_json()
-    print('Customer data received!')
+    #print('Customer data received!')
     X = dv.transform([customer])
 
     features = dv.get_feature_names()
     dcust = xgb.DMatrix(X, feature_names=features)
     #Predict
-    print('Predicting Subscribe Probability......')
+    #print('Predicting Subscribe Probability......')
     y_pred = model.predict(dcust)[:].round(4)
-    subs = y_pred >= 0.5
-    print('Subscribe probability: ', y_pred)
+    subs = y_pred >= 0.7
+    #print('Subscribe probability: ', y_pred)
 
     result = {
         "Subscribe Probability": float(y_pred),
         "Subscribe": bool(subs)
     }
-    print('Prediction result sent!')
+    #print('Prediction result sent!')
     return jsonify(result)
