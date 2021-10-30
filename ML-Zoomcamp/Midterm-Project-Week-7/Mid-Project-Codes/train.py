@@ -86,6 +86,7 @@ def OHE_DV_wo_fit(df, dv, col):
     
     return X_data
 
+print(' ')
 # Model Validation
 print('Validation Process Start....')
 dv = DictVectorizer(sparse=False)
@@ -138,10 +139,6 @@ X_test = OHE_DV_wo_fit(df_test, dv, X_col)
 features = dv.get_feature_names()
 dfull_train = xgb.DMatrix(X_full_train, label=y_full_train, feature_names=features)
 dtest = xgb.DMatrix(X_test, label=y_test, feature_names=features)
-
-eta = 0.5
-d = 10
-w = 1
 
 xgb_params = {
     'eta': eta, 
