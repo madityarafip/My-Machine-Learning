@@ -12,4 +12,4 @@ COPY ["predict.py", "final_model.bin", "./"]
 
 EXPOSE 1208
 
-ENTRYPOINT ["gunicorn", "--bind", "0.0.0.0:1208", "predict:app"]
+ENTRYPOINT ["gunicorn", "predict:app"]
