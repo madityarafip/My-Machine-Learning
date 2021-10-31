@@ -31,7 +31,7 @@ The data is related with direct marketing campaigns of a Portuguese banking inst
 ## Project Notebooks
  
 The notebooks file of this project can be seen in this [link](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Midterm-Project-Week-7/MLZoomcamp_MidProject.ipynb).  
-Objective of this project is to create a subscription services to predict the probability whether the potential client will subscribe to a term deposit or not (variable y = yes/no). So in this notebooks, I do some processing before I deploy my model to subscription services. The process includes:
+Objective of this project is to create a subscription services to predict the probability whether the potential client will subscribe to a term deposit or not (variable y = yes/no). So in this notebooks, I did some processing before I deploy my model to subscription services. The process includes:
 1. Data preparation
 2. Exploratory data analysis (EDA)  
    What I do in this part: 
@@ -48,7 +48,7 @@ Objective of this project is to create a subscription services to predict the pr
 	 + View Mutual Info Score for Categorical Features of full train data
 	 + Use Correlation Matrix to see correlation between features and target in train data and visualize it using heatmap
 5. Choose model  
-   The best parameter and model will be selected based on the best performance of the model seen from AUC score of the validation data for each trained model. or this midterm project there are a few model for classification that I used:
+   The best parameter and model will be selected based on the best performance of the model seen from AUC score of the validation data for each trained model. For this midterm project there are a few model for classification that I used:
    + `LogisticRegression()`
    + `DecisionTreeClassifier()`
    + `RandomForestClassifier()`
