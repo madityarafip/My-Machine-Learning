@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = "http://madityarafip.pythonanywhere.com/predict"
+url = "http://mid-proj-docker.herokuapp.com/predict"
 
 
 print('  \nFill potential client data below:')
