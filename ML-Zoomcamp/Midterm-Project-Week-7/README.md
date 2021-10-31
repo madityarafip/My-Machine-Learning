@@ -68,12 +68,44 @@ After the final model is obtained, the next process can be carried out:
 For this part the required file is:
 + [`train.py`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Midterm-Project-Week-7/Mid-Project-Codes/train.py)
 
+Steps:
+1. Create [`train.py`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Midterm-Project-Week-7/Mid-Project-Codes/train.py) by exporting the notebook into a python script
+2. Open terminal in project folder
+3. Run [`train.py`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Midterm-Project-Week-7/Mid-Project-Codes/train.py) in terminal using this command:  
+   `python3 train.py`
+5. Wait until training process complete
+6. And there you have it! The model and `DictVectorizer()` are saved into `final_model.bin`
+
+All of the steps and process can be seen in the video below ⬇️
+
+
+
+https://user-images.githubusercontent.com/42953630/139566021-b972dbc5-b165-4ba2-90b3-3a073b44f5ca.mp4
+
+
+**Note**: 
++ For example of saving the model using `pickle` you can refer to this lesson: [5.2. Saving and loading the model](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/05-deployment/02-pickle.md)
+
 ### Tutorial 2 ➡️ Put model into a web services and deploy it locally with `pipenv` and `Dockerfile`
 For this part the required files are:
 + [`predict.py`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Midterm-Project-Week-7/Mid-Project-Codes/predict.py)
++ `final_model.bin`
 + `Pipfile` and `Pipfile.lock`
 + [`Dockerfile`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Midterm-Project-Week-7/Mid-Project-Codes/Dockerfile)
 + [`test_local.py`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Midterm-Project-Week-7/Mid-Project-Codes/test_local.py)
+
+Steps:
+1. Create `predict.py` for load the `final_model.bin` and send the probability prediction result using `flask`
+2. Open terminal in project folder and install `pipenv` for virtual envinronment using this command:  
+   `pip install pipenv`
+3. After the `pipenv` installation complete you can install the python libraries that used in this project using this command:  
+   `pipenv install scikit-learn==1.0.0 numpy flask requests gunicorn xgboost`
+4. After installing the libraries the process will generate 2 files `Pipfile` and `Pipfile.lock`
+5. Create Dockerfile with the contents of the script as below  
+   ![Screenshot from 2021-10-31 10-59-33](https://user-images.githubusercontent.com/42953630/139566903-e2221142-5d1f-40af-87a4-3903cb874eea.png)
+
+
+
 
 ### Tutorial 3 ➡️ Put the web subscription services to the cloud with docker container
 For this part the required files are:
