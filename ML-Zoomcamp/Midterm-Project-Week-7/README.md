@@ -121,7 +121,7 @@ For this part the required files are:
 + [`predict.py`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Midterm-Project-Week-7/Mid-Project-Codes/predict.py)
 + `final_model.bin`
 + `Pipfile` and `Pipfile.lock`
-+ [`Dockerfile`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Midterm-Project-Week-7/Mid-Project-Codes/Dockerfile)
++ `Dockerfile`
 + [`test_local.py`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Midterm-Project-Week-7/Mid-Project-Codes/test_local.py)
 
 Steps:
@@ -169,7 +169,7 @@ https://user-images.githubusercontent.com/42953630/139566978-ef241014-12e9-4bce-
 9. Run the [`test_local.py`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Midterm-Project-Week-7/Mid-Project-Codes/test_local.py) in another terminal (need to open new terminal from project folder) using this command:  
    `pipenv run python test_local.py`
 10. Fill the form of potential client data
-11. Wait the probability prediction process
+11. Wait for the probability prediction process
 12. And congratulation! You can get the subsription probability for the potential client and get the suggestion from system whether we need to send email offer or not (For this project I give condition to send email when the probability is >= 70%)
 
 For step 7 - 10 you can see the process in this video below ⬇️
@@ -191,7 +191,7 @@ https://user-images.githubusercontent.com/42953630/139567992-d8031921-ae33-4f96-
 + For example of creating and run Docker container you can refer to this lesson: [5.6. Environment management: Docker](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/05-deployment/06-docker.md)
 
       
-### Tutorial 3 ➡️ Put the web subscription services to the cloud with docker container
+### Tutorial 3 ➡️ Put the web subscription services to the cloud with docker container using Heroku
 For this part the required files are:
 + [`predict.py`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Midterm-Project-Week-7/Mid-Project-Codes/predict.py)
 + `final_model.bin`
@@ -199,3 +199,44 @@ For this part the required files are:
 + [`Dockerfile`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Midterm-Project-Week-7/Mid-Project-Codes/Dockerfile)
 + [`test_cloud.py`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Midterm-Project-Week-7/Mid-Project-Codes/test_cloud.py)
 
+Steps:
+1. Create [Heroku](https://www.heroku.com) account
+2. Install Heroku CLI
+3. Login to Heroku using CLI via terminal using this command:  
+   `heroku login`
+4. Login to Heroku container registry in terminal using this command:  
+   `heroku container:login`
+5. Still in the same terminal, create app in Heroku using this command:  
+   `heroku create mid-proj-docker`
+6. Edit the `Dockerfile`, because heroku can't specify which port we will use, so instead  
+   `ENTRYPOINT ["gunicorn", "--bind", "0.0.0.0:1208", "predict:app"]`  
+   we change that line into
+   `ENTRYPOINT ["gunicorn", "predict:app"]`
+7. Push docker image to Heroku using this command:  
+   `heroku container:push web -a mid-proj-docker`  
+   For step 6 and 7 you can see in this video below ⬇️
+   
+   
+
+https://user-images.githubusercontent.com/42953630/139568770-3e891927-cebb-4ac9-b9f9-65a6da3e1e9b.mp4
+
+
+   
+   
+
+8. Release the container using this command:  
+   `heroku container:release web -a mid-proj-docker`
+9. Launch you app to check whether the Docker container is successfully deployed or not (for this project you can click this URL: [https://mid-proj-docker.herokuapp.com/welcome](https://mid-proj-docker.herokuapp.com/welcome))
+10. If the Docker container successfully deployed then you can proceed to the next step
+11. Open new terminal and run [`test_cloud.py`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Midterm-Project-Week-7/Mid-Project-Codes/test_cloud.py) (the different from [`test_local.py`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Midterm-Project-Week-7/Mid-Project-Codes/test_local.py) is the desired destination URL, and for this step the URL used is `"http://mid-proj-docker.herokuapp.com/predict"`) 
+12. Fill the form of potential client data
+13. Wait for the probability prediction process
+14. And congratulation! You can get the subsription probability for the potential client and get the suggestion from system whether we need to send email offer or not (For this project I give condition to send email when the probability is >= 70%)
+
+For step 8 - 10 you can see the process in this video below ⬇️
+
+
+https://user-images.githubusercontent.com/42953630/139568824-78a3945d-193c-4ea3-976e-ed87c0ea2b3b.mp4
+
+**Note**:
++ For installing and deploying Docker container into Heroku you can refer to this notes by Ninad Date: [How to use Heroku to host your python web app for free](https://github.com/nindate/ml-zoomcamp-exercises/blob/main/how-to-use-heroku.md#deploy-app-docker)
