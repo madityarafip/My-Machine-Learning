@@ -16,7 +16,12 @@ with open(model_file, 'rb') as f_model:
 
 print('Model and dv Loaded!')
 
-app = Flask('churn')
+app = Flask('subscribe')
+
+@app.route('/welcome', methods=['GET'])
+def welcome():
+    welcome_msg = "<h1>Welcome! Your application is succesfully deployed as Docker container on heroku</h1>"
+    return welcome_msg
 
 @app.route('/predict', methods=['POST'])
 def predict():
