@@ -12,5 +12,5 @@ Dataset available [here](https://github.com/madityarafip/My-Machine-Learning/blo
 
 ## Navigation
 + [Machine Learning Projects](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Projects) 
-+ Next -> Coming soon..😉
++ Next -> [Bank Deposit Subscription Prediction](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/Midterm-Project-Week-7)
 + Previous -> [Machine Learning Model For Hourly Energy Consumption (Time Series Data)](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Projects/Hourly-Energy-Consumption/README.md)
