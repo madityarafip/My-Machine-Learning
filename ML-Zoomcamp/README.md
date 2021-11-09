@@ -1,7 +1,7 @@
 # Machine Learning Zoomcamp
 ![image](https://user-images.githubusercontent.com/42953630/137266103-1cc70f4e-b750-4800-9660-1efef2b1908d.png)
 
-This repo contains all of the lessons and the homework that i have been working on as the part of #mlzoomcamp training held by DataTalksClub and Alexey Grigorev. 
+This repo contains all of the lessons and the homework project that i have been working on as the part of #mlzoomcamp training held by DataTalksClub and Alexey Grigorev. 
 
 ## Course, Homework, and Project Links
 | Week      | Course      | Homework/Project Progress | Deadline     | Link     |
