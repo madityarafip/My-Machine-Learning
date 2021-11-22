@@ -6,7 +6,7 @@ Week 6 of the #mlzoomcamp explains about creating and tuning the parameter for d
 2. [Data cleaning and preparation](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/06-trees/02-data-prep.md):white_check_mark:
 3. [Decision trees](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/06-trees/03-decision-trees.md):white_check_mark:
 4. [Decision tree learning algorithm](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/06-trees/04-decision-tree-learning.md):white_check_mark:
-5. [Decision trees parameter tuning](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/06-trees/05-decision-tree-tuning.nd):white_check_mark:
+5. [Decision trees parameter tuning](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/06-trees/05-decision-tree-tuning.md):white_check_mark:
 6. [Ensemble learning and random forest](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/06-trees/06-random-forest.md):white_check_mark:
 7. [Gradient boosting and XGBoost](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/06-trees/07-boosting.md):white_check_mark:
 8. [XGBoost parameter tuning](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/06-trees/08-xgb-tuning.md):white_check_mark:
