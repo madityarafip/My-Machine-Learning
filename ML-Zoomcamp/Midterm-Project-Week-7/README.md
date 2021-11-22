@@ -240,3 +240,9 @@ https://user-images.githubusercontent.com/42953630/139568824-78a3945d-193c-4ea3-
 
 **Note**:
 + For installing and deploying Docker container into Heroku you can refer to this notes by Ninad Date: [How to use Heroku to host your python web app for free](https://github.com/nindate/ml-zoomcamp-exercises/blob/main/how-to-use-heroku.md#deploy-app-docker)
+
+
+## Navigation
+* [ML-Zoomcamp](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp)
+* Next  -> Week 9 Homework: [Neural Networks and Deep Learning](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/HW-Week-9)
+* Prev. -> Week 6 Homework: [Decision Trees and Ensemble Learning](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/HW-Week-6)
