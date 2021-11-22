@@ -19,7 +19,7 @@ Week 9 of the #mlzoomcamp explains about Neural Networks and Deep Learning. This
 The Homework question can be seen in this [link](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/08-deep-learning/homework.md).
 
 ## Dataset for Homework
-Dataset that can be downloaded from [Kaggle](https://www.kaggle.com/c/dogs-vs-cats/data) (You need to download the `train.zip` file.) or you can use this [link](https://github.com/alexeygrigorev/large-datasets/releases/download/dogs-cats/train.zip).
+Dataset that can be downloaded from [Kaggle](https://www.kaggle.com/c/dogs-vs-cats/data) (You need to download the `train.zip` file) or you can use this [link](https://github.com/alexeygrigorev/large-datasets/releases/download/dogs-cats/train.zip).
 
 ## Homework Answer
 The answer of this HW can be seen in this [link](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/HW-Week-9/MLZoomcamp_HW9.ipynb).
