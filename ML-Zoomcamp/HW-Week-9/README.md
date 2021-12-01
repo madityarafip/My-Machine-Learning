@@ -26,5 +26,5 @@ The answer of this HW can be seen in this [link](https://github.com/madityarafip
 
 ## Navigation
 * [ML-Zoomcamp](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp)
-* Next  -> Week 11: [Serverless Deep Learning](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/HW-11)
+* Next  -> Week 11: [Serverless Deep Learning](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/HW-Week-11)
 * Prev. -> Week 7 and 8: [Midterm Project](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/Midterm-Project-Week-7)
