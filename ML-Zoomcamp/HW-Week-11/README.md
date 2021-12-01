@@ -19,12 +19,15 @@ Dataset that can be downloaded from [Kaggle](https://www.kaggle.com/c/dogs-vs-ca
 ## Homework Answer
 The answer of this HW can be seen in this [code](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/HW-Week-11/HW11-Code) folder and this [notebook](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/HW-Week-11/MLZoomcamp_HW11.ipynb) file. For the result of the program can also be seen in the images below.
 
+
 Answer for Q5:
+
 ![image](https://user-images.githubusercontent.com/42953630/144330020-487bec30-f5d0-49e7-8472-69a08917b2f9.png)
 
 
 
-Answer for Q6
+Answer for Q6:
+
 ![image](https://user-images.githubusercontent.com/42953630/144330102-e35d4acc-a44f-4782-8994-21569b1f148f.png)
 
 
