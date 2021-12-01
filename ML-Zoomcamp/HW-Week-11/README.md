@@ -3,7 +3,7 @@ Week 11 of the #mlzoomcamp explains about how to create a Serverless Deep Learni
 
 Week 11 lessons:
 1. [Introduction to Serverless](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/09-serverless/01-intro.md):white_check_mark:
-2. AWS Lambda[](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/09-serverless/02-aws-lambda.md):white_check_mark:
+2. [AWS Lambda](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/09-serverless/02-aws-lambda.md):white_check_mark:
 3. [TensorFlow Lite](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/09-serverless/03-tensorflow-lite.md):white_check_mark:
 4. [Preparing the code for Lambda](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/09-serverless/04-preparing-code.md):white_check_mark:
 5. [Preparing a Docker image](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/09-serverless/05-docker-image.md):white_check_mark:
