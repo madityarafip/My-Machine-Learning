@@ -15,6 +15,7 @@
     * Change `Month` feature into Categorical
 4. Split Dataset into Train/Val/Test (60%/20%/20%)
 5. Exploratory Data Analysis (EDA)
+    * Get Numerical and Categorical Features
     * Check missing value
     * Explore Categorical and Numerical features
     * Check outliers in Numerical feature
