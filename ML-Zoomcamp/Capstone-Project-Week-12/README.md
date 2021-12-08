@@ -4,6 +4,7 @@
 
 1. Library
 2. Dataset
+    * Get Dataset
     * Dataset Description
     * Dataset Objectives
     * Dataset Information
