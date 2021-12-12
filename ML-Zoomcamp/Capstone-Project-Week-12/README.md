@@ -20,6 +20,7 @@
     * Check missing value
     * Check outliers in Numerical feature
     * Australia rain season
+    * Explore Target (`RainTomorrow`) feature
 6. Feature Engineering
     * Deals with missing value
     * Deals with Outliers
