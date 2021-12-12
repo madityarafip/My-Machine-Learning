@@ -28,9 +28,10 @@
     * Mutual Info Score for Categorical features
     * Correlation Matrix and Heatmap for Numerical features
 8. Declare Features for Capstone Project
-9. Machine Learning Model
+9. OHE with DictVectorizer()
+10. Machine Learning Model
     * `LogisticRegression()`
     * `DecisionTreeClassifier()`
     * `RandomForestClassifier()`
     * `XGBoost()`
-10. Train the best and final model
+11. Train the best and final model
