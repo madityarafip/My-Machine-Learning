@@ -233,7 +233,7 @@ https://user-images.githubusercontent.com/42953630/139568770-3e891927-cebb-4ac9-
 13. Wait for the probability prediction process
 14. And congratulation! You can get the subsription probability for the potential client and get the suggestion from system whether we need to send email offer or not (For this project I give condition to send email when the probability is >= 70%)
 
-For step 8 - 10 you can see the process in this video below ⬇️
+For step 8 - 14 you can see the process in this video below ⬇️
 
 
 https://user-images.githubusercontent.com/42953630/139568824-78a3945d-193c-4ea3-976e-ed87c0ea2b3b.mp4
