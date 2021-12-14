@@ -1,6 +1,9 @@
 # **CAPSTONE PROJECT: RAIN PREDICTION IN AUSTRALIA**
+This project is part of the [Machine Learning Zoomcamp](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp) training held by [DataTalksClub](https://datatalks.club/). In this Midterm Project, everything that has been learned in the previous weeks was applied in this project. To see what I have learned during this training, you can refer to this following [link](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp). The problem raised in this project is the prediction of whether tomorrow will rain or not based from Australia weather dataset. ('Yes' or 'No' condition).
 
-## **Table of Content**
+
+## **Project Notebooks**
+### **Table of Content**
 
 1. Library
 2. Dataset
