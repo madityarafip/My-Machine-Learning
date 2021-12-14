@@ -222,14 +222,14 @@ data_test_4 = {
 
 ### Tutorial 2 ➡️ Put model into a web services and deploy it locally with `pipenv` and `Dockerfile`
 For this part the required files are:
-+ [`predict.py`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Midterm-Project-Week-7/Mid-Project-Codes/predict.py)
++ [`predict.py`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Capstone-Project-Week-12/Cap-Projects-Codes/predict.py)
 + `final_model.bin`
 + `Pipfile` and `Pipfile.lock`
 + `Dockerfile`
-+ [`test_local.py`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Midterm-Project-Week-7/Mid-Project-Codes/test_local.py)
++ [`test_local.py`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Capstone-Project-Week-12/Cap-Projects-Codes/test_local.py)
 
 Steps:
-1. Create [`predict.py`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Midterm-Project-Week-7/Mid-Project-Codes/predict.py) for load the `final_model.bin` and send the probability prediction result using `flask`
+1. Create [`predict.py`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Capstone-Project-Week-12/Cap-Projects-Codes/predict.py) for load the `final_model.bin` and send the probability prediction result using `flask`
 2. Open terminal in project folder and install `pipenv` for python virtual envinronment using this command:  
    		`pip install pipenv`
 3. After the `pipenv` installation complete you can install the python libraries that used in this project using this command:  
@@ -254,6 +254,90 @@ Steps:
    ENTRYPOINT ["gunicorn", "--bind", "0.0.0.0:1208", "predict:app"] 
    ```
 6. Build Docker container using this command:  
-   	       `sudo docker build -t mid-pro-mlz .`  
+   	       `sudo docker build -t cap-pro-mlz .`  
    With -t command we're specifying the tag mid-pro-mlz for this Dockerfile.	       
    You can see this process in this video below ⬇️
+   
+
+https://user-images.githubusercontent.com/42953630/146025178-45b45812-de7f-43c8-accb-1018fa00de30.mp4
+
+
+7. After the Docker container is build, we can run it, just simply used this command:  
+   `sudo docker run -it -p 1208:1208 cap-pro-mlz:latest`  
+   Here we use the option -it in order to the Docker run from terminal and shows the result. The -p parameter is used to map the 1208 port of the Docker to 1208 port of our machine. (First 1208 is the Docker container port and the last 1208 is port number for our machine)
+8. The docker run subscription services and wait for input from client data from [`test_local.py`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Capstone-Project-Week-12/Cap-Projects-Codes/test_local.py)
+9. Run the [`test_local.py`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Capstone-Project-Week-12/Cap-Projects-Codes/test_local.py) in another terminal (need to open new terminal from project folder) using this command:  
+   `pipenv run python test_local.py`
+10. Choose test data
+11. Wait for the probability prediction process
+12. And congratulation! You can get the rain prediction probability for tomorrow and get the suggestion from system whether it will rain tomorrow or not (For this project I give condition it will rain when the probability is >= 60%)
+
+For step 7 - 10 you can see the process in this video below ⬇️   
+
+
+
+https://user-images.githubusercontent.com/42953630/146025703-a88dae95-1a78-4123-80f6-27f68a225746.mp4
+
+
+**Note**:
++ For tutorial using flask you can refer to this lessons: [5.3. Web services: introduction to Flask](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/05-deployment/03-flask-intro.md) and [5.4. Serving the churn model with Flask](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/05-deployment/04-flask-deployment.md)
++ For example of installing `pipenv` you can refer to this lesson: [5.5. Python virtual environment: Pipenv](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/05-deployment/05-pipenv.md)
++ For example of creating and run Docker container you can refer to this lesson: [5.6. Environment management: Docker](https://github.com/alexeygrigorev/mlbookcamp-code/blob/master/course-zoomcamp/05-deployment/06-docker.md)
+
+
+### Tutorial 3 ➡️ Put the web subscription services to the cloud with docker container using Heroku
+For this part the required files are:
++ [`predict.py`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Capstone-Project-Week-12/Cap-Projects-Codes/predict.py)
++ `final_model.bin`
++ `Pipfile` and `Pipfile.lock`
++ [`Dockerfile`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Capstone-Project-Week-12/Cap-Projects-Codes/Dockerfile)
++ [`test_cloud.py`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Capstone-Project-Week-12/Cap-Projects-Codes/test_cloud.py)
+
+Steps:
+1. Create [Heroku](https://www.heroku.com) account
+2. Install Heroku CLI
+3. Login to Heroku using CLI via terminal using this command:  
+   `heroku login`
+4. Login to Heroku container registry in terminal using this command:  
+   `heroku container:login`
+5. Still in the same terminal, create app in Heroku using this command:  
+   `heroku create cap-proj-docker`
+6. Edit the `Dockerfile`, because heroku can't specify which port we will use, so instead  
+   `ENTRYPOINT ["gunicorn", "--bind", "0.0.0.0:1208", "predict:app"]`  
+   we change that line into
+   `ENTRYPOINT ["gunicorn", "predict:app"]`
+7. Push docker image to Heroku using this command:  
+   `heroku container:push web -a cap-proj-docker`  
+   For step 6 and 7 you can see in this video below ⬇️
+   
+   
+   
+
+https://user-images.githubusercontent.com/42953630/146026397-91baa85d-6d7a-4b21-9287-45278d1d5322.mp4
+
+
+
+8. Release the container using this command:  
+   `heroku container:release web -a mid-proj-docker`
+9. Launch you app to check whether the Docker container is successfully deployed or not (for this project you can click this URL: [https://mid-proj-docker.herokuapp.com/welcome](https://cap-proj-docker.herokuapp.com/welcome))
+10. If the Docker container successfully deployed then you can proceed to the next step
+11. Open new terminal and run [`test_cloud.py`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Capstone-Project-Week-12/Cap-Projects-Codes/test_cloud.py) (the different from [`test_local.py`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Capstone-Project-Week-12/Cap-Projects-Codes/test_local.py) is the desired destination URL, and for this step the URL used is `"http://cap-proj-docker.herokuapp.com/predict"`) 
+12. Choose test data
+13. Wait for the probability prediction process
+14. And congratulation! You can get the rain prediction probability for tomorrow and get the suggestion from system whether it will rain tomorrow or not (For this project I give condition it will rain when the probability is >= 60%)
+
+For step 8 - 14 you can see the process in this video below ⬇️
+
+
+
+https://user-images.githubusercontent.com/42953630/146026858-3b1ad711-de91-46d5-bbd3-62cca976c9f5.mp4
+
+
+**Note**:
++ For installing and deploying Docker container into Heroku you can refer to this notes by Ninad Date: [How to use Heroku to host your python web app for free](https://github.com/nindate/ml-zoomcamp-exercises/blob/main/how-to-use-heroku.md#deploy-app-docker)
+
+
+## Navigation
+* [ML-Zoomcamp](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp)
+* Next  -> Week 12 Homework: [Kubernetes and TensorFlow-Serving]()
+* Prev. -> Week 9 Homework: [Neural Networks and Deep Learning](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/HW-Week-9)
