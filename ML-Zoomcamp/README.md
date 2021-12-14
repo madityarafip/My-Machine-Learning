@@ -17,7 +17,7 @@ This repo contains all of the lessons and the homework project that i have been 
 | 11         | Serverless Deep Learning   | ✔️   | 02/12/2021   |[HW-11](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/HW-Week-11)   |
 | 12         | Kubernetes and TensorFlow-Serving   | ✖️   | 10/01/2021   |[HW-12]()   |
 | --         | Kubeflow and KFServing   | ✖️   | --/--/2021   |No HW!   |
-| 12         | Capstone Project   |  ⏳  | 13/12/2021   |[Cap-Project](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/Capstone-Project-Week-12)   |
+| 12         | Capstone Project   |  ✔️ | 14/12/2021   |[Cap-Project](https://github.com/madityarafip/My-Machine-Learning/tree/main/ML-Zoomcamp/Capstone-Project-Week-12)   |
 
 -------------------------------------------------
 ### Notes:
