@@ -234,7 +234,7 @@ Steps:
    		`pip install pipenv`
 3. After the `pipenv` installation complete you can install the python libraries that used in this project using this command:  
    		`pipenv install scikit-learn==1.0.0 numpy flask requests gunicorn xgboost`
-4. After installing the libraries the process will generate 2 files `Pipfile` and `Pipfile.lock`
+4. After installing the libraries from process will generate 2 files `Pipfile` and `Pipfile.lock`
 5. Create `Dockerfile` with the contents of the script as below  
    ``` 
    FROM python:3.9.7-slim
@@ -255,7 +255,7 @@ Steps:
    ```
 6. Build Docker container using this command:  
    	       `sudo docker build -t cap-pro-mlz .`  
-   With -t command we're specifying the tag mid-pro-mlz for this Dockerfile.	       
+   With -t command we're specifying the tag cap-pro-mlz for this Dockerfile.	       
    You can see this process in this video below ⬇️
    
 
@@ -265,7 +265,7 @@ https://user-images.githubusercontent.com/42953630/146025178-45b45812-de7f-43c8-
 7. After the Docker container is build, we can run it, just simply used this command:  
    `sudo docker run -it -p 1208:1208 cap-pro-mlz:latest`  
    Here we use the option -it in order to the Docker run from terminal and shows the result. The -p parameter is used to map the 1208 port of the Docker to 1208 port of our machine. (First 1208 is the Docker container port and the last 1208 is port number for our machine)
-8. The docker run subscription services and wait for input from client data from [`test_local.py`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Capstone-Project-Week-12/Cap-Projects-Codes/test_local.py)
+8. The docker run rain prediction services and wait for input from test data from [`test_local.py`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Capstone-Project-Week-12/Cap-Projects-Codes/test_local.py)
 9. Run the [`test_local.py`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Capstone-Project-Week-12/Cap-Projects-Codes/test_local.py) in another terminal (need to open new terminal from project folder) using this command:  
    `pipenv run python test_local.py`
 10. Choose test data
@@ -319,7 +319,7 @@ https://user-images.githubusercontent.com/42953630/146026397-91baa85d-6d7a-4b21-
 
 8. Release the container using this command:  
    `heroku container:release web -a mid-proj-docker`
-9. Launch you app to check whether the Docker container is successfully deployed or not (for this project you can click this URL: [https://mid-proj-docker.herokuapp.com/welcome](https://cap-proj-docker.herokuapp.com/welcome))
+9. Launch your app to check whether the Docker container is successfully deployed or not (for this project you can click this URL: [https://cap-proj-docker.herokuapp.com/welcome](https://cap-proj-docker.herokuapp.com/welcome))
 10. If the Docker container successfully deployed then you can proceed to the next step
 11. Open new terminal and run [`test_cloud.py`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Capstone-Project-Week-12/Cap-Projects-Codes/test_cloud.py) (the different from [`test_local.py`](https://github.com/madityarafip/My-Machine-Learning/blob/main/ML-Zoomcamp/Capstone-Project-Week-12/Cap-Projects-Codes/test_local.py) is the desired destination URL, and for this step the URL used is `"http://cap-proj-docker.herokuapp.com/predict"`) 
 12. Choose test data
