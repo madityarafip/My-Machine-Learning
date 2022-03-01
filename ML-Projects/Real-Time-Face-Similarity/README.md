@@ -1,3 +1,0 @@
-# REAL TIME FACE SIMILARITY
-
-➡️Coming soon!
